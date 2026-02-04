@@ -1,0 +1,4 @@
+skills:
+  - name: crypto-investor-l2-scoreboard
+    path: skills/crypto_investor_l2_scoreboard
+    description: "Researchers and scores L2 blockchains."

@@ -26,15 +26,45 @@ skills/
 The `SKILL.md` file combines structured metadata (YAML Frontmatter) with natural language instructions.
 
 ### 1. YAML Frontmatter
-Used by the agent framework to index and select skills.
+Used by the agent framework to index and select skills. **Compatible with Claude Code.**
 
 ```yaml
 ---
-name: Skill Name
-description: A brief, single-sentence summary of what the skill does. Used for semantic search/routing.
-version: 1.0.0 (Optional)
+name: skill-name        # Required: Kebab-case name (e.g., 'code-reviewer'). Acts as slash command.
+description: string     # Required: Single-sentence summary for semantic routing.
+version: 1.0.0          # Optional: Semantic versioning.
+author: string          # Optional: Author name or contact.
+dependencies:           # Optional: List of required system packages.
+  - python3
+permissions:            # Optional: Requested permissions/tools.
+  allowed-tools:        # Claude Code specific tool allowlist.
+    - Bash
+    - Read
 ---
 ```
+
+## Skill Collections & Installation
+
+To standardized distribution, repositories can define a **Skill Collection** manifest.
+
+### `skills.yaml` Format
+Root-level file declaring which skills this repository exports or depends on.
+
+```yaml
+skills:
+  - name: crypto-investor
+    path: skills/crypto_investor_l2_scoreboard
+    description: "Analyzes L2 blockchains."
+  - name: code-reviewer
+    url: "https://github.com/my-org/skills/releases/download/v1.0/code-reviewer.zip"
+```
+
+### Installation Standard
+Tools should install skills into a standard user directory to ensure cross-tool availability.
+
+*   **Standard Path**: `~/.antigravity/skills` or `~/.claude/skills`
+*   **Project Path**: `.agent/skills` (Recommended for project-specific skills)
+
 
 ### 2. Instructions (The Body)
 The rest of the file is standard Markdown. It serves as the system prompt or context injection for the agent.

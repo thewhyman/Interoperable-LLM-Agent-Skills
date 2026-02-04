@@ -1,6 +1,6 @@
 # Crypto Investor L2 Scoreboard Skill
 
-This directory contains an agentic skill describing how to research and score Layer 2 blockchains, adhering to the [LLM Skill Standard](../../SPEC.md).
+This directory contains an agentic skill describing how to research and score Layer 2 blockchains, adhering to the [LLM Skill Standard](../../SKILL_STANDARD_SPEC.md).
 
 ## Overview
 The **Crypto Investor L2 Scoreboard** skill helps investors research and score Layer 2 blockchains. It can:
@@ -20,6 +20,10 @@ To use this skill with your AI agent:
 
 ## Example Prompts
 Once the skill is available to the agent, you can use prompts like:
+
+> "Create a crypto investor scoreboard"
+
+> "Generate a crypto investor scoreboard"
 
 > "Use the L2 Scoreboard skill to analyze the top Gaming L2s."
 

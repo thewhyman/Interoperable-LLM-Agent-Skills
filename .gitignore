@@ -6,6 +6,11 @@ Thumbs.db
 .gemini/
 .vscode/
 .idea/
+.agent/
+.antigravity/
+.claude/
+task.md
+implementation_plan.md
 
 # Node
 node_modules/
