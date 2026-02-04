@@ -1,0 +1,12 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Agent/IDE specific
+.gemini/
+.vscode/
+.idea/
+
+# Node
+node_modules/
+npm-debug.log
