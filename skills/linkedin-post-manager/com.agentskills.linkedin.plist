@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.agentskills.linkedin.manager</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/python3</string>
+        <string>PATH_TO_SKILL/queue_trigger_service.py</string>
+        <string>check</string>
+    </array>
+    <key>StartInterval</key>
+    <integer>1800</integer> <!-- 30 minutes -->
+    <key>RunAtLoad</key>
+    <true/>
+    <key>StandardErrorPath</key>
+    <string>/tmp/com.agentskills.linkedin.err</string>
+    <key>StandardOutPath</key>
+    <string>/tmp/com.agentskills.linkedin.out</string>
+</dict>
+</plist>

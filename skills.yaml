@@ -1,4 +1,6 @@
 skills:
   - name: crypto-investor-l2-scoreboard
     path: skills/crypto_investor_l2_scoreboard
-    description: "Researchers and scores L2 blockchains."
+  - name: linkedin-post-manager
+    path: skills/linkedin-post-manager
+    description: "Manages a LinkedIn post queue with browser automation and macOS notifications."
