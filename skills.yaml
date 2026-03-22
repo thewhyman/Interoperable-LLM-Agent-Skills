@@ -4,3 +4,6 @@ skills:
   - name: linkedin-post-manager
     path: skills/linkedin-post-manager
     description: "Manages a LinkedIn post queue with browser automation and macOS notifications."
+  - name: co-dialectic
+    path: skills/co-dialectic
+    description: "Bidirectional human-AI co-evolution framework. Three techniques that compound across sessions. Inspired by Ethan Mollick's co-intelligence."
