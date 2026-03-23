@@ -45,7 +45,9 @@ A skill is a self-contained package of instructions and logic defined in a `SKIL
 
 | Skill Name | Description |
 | :--- | :--- |
+| [Co-Dialectic](skills/co-dialectic) | Bidirectional human-AI co-evolution framework. Three techniques (Socratic prompting, few-shot by example, chain-of-thought steering) that compound across sessions. Inspired by Ethan Mollick's *Co-Intelligence*. |
 | [Crypto Investor L2 Scoreboard](skills/crypto_investor_l2_scoreboard) | Researches and scores L2 blockchains based on adoption and momentum. |
+| [LinkedIn Post Manager](skills/linkedin-post-manager) | Manages a LinkedIn post queue with browser automation and macOS desktop notifications. Human-in-the-loop before posting. |
 
 ### Installation
 Use the provided `agent_skills_install.py` script to install skills.
