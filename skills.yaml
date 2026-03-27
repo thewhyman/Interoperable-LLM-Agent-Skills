@@ -7,3 +7,18 @@ skills:
   - name: co-dialectic
     path: skills/co-dialectic
     description: "Bidirectional human-AI co-evolution framework. Three techniques that compound across sessions. Inspired by Ethan Mollick's co-intelligence."
+  - name: healthcare-triage
+    path: skills/healthcare-triage/SKILL.md
+    description: AI-assisted clinical triage — classifies urgency, flags red-flag presentations, routes to appropriate care level.
+  - name: fhir-data-access
+    path: skills/fhir-data-access/SKILL.md
+    description: Query and interpret HL7 FHIR R4 healthcare data in plain language (Patient, Condition, Observation, MedicationRequest).
+  - name: career-management
+    path: skills/career-management/SKILL.md
+    description: HumOS seed — persistent career co-intelligence partner for pipeline tracking, story capture, interview prep, and job search.
+  - name: eval-runner
+    path: skills/eval-runner/SKILL.md
+    description: Design and execute LLM eval suites with onion-model rubrics, multi-model comparison, and pass/fail deployment gates.
+  - name: grant-discovery
+    path: skills/grant-discovery/SKILL.md
+    description: Discover, score, and prioritize healthcare AI grant opportunities — and draft Specific Aims, Problem Statements, and Narratives.
